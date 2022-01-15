@@ -5,7 +5,7 @@ let  Navigation = () => {
     return(
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <a href="#" className="navbar-brand">bootstrap</a>
+                <a href="/" className="navbar-brand">Home</a>
 
                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse"        data-bs-target="#navbarCollapse">
                     <span className="navbar-toggler-icon"></span>
@@ -19,7 +19,7 @@ let  Navigation = () => {
                     </div>
 
                     <div className="navbar-nav ms-auto">
-                        <a href="#" className="nav-item nav-link"> Contact Us </a>
+                        <a href="/" className="nav-item nav-link"> Contact Us </a>
                     </div>
 
                 </div>

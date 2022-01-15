@@ -24,7 +24,6 @@ let Admin = (props) => {
   }
 
   useEffect(()=> {
-    console.log(props);
     fetch("https://61e17be563f8fc0017618c60.mockapi.io/employee", {
       method: "GET",
     }).then(
